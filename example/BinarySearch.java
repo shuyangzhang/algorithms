@@ -1,4 +1,7 @@
 import java.util.Arrays;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 public class BinarySearch
 {
@@ -23,7 +26,7 @@ public class BinarySearch
 		{
 			int key = StdIn.readInt();
 			if (rank(key, whitelist) == -1)
-				StdOut.printIn(key);
+				StdOut.println(key);
 		}
 	}
 }
